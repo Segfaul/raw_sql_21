@@ -1,0 +1,2 @@
+SELECT (address) 
+FROM stores

@@ -1,0 +1,16 @@
+--- Global ---
+pip3 install SQLAlchemy
+pip3 install psycopg2-binary
+pip3 install psycopg2
+pip install pandas
+ЦентрУправленияПО -> postgres -> initalize
+python3 task.py
+
+
+--- VirtualEnv ---
+pip3 install virtualenv 
+cd "path/to/dir"
+python3 -m venv "path/to/venv/bin"
+source "path/to/bin/activate"
+repeat "--- Global ---"
+deactivate
